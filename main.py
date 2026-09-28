@@ -40,7 +40,7 @@ async def change_status():
     now = datetime.now(tz)
     
     # แปลงชื่อวันเป็นภาษาไทย
-    days_th = ["วันจันทร์", "วันอังคาร", "วันพุธ", "วันพฤหัสบดี", "วันศุกร์", "วันเสาร์", "วันอาทิตย์"]
+    days_th = ["Monday", "Tuesday", ""Wednesday", ""Thursday", "Friday", "Saturday", "week"]
     day_str = days_th[now.weekday()]
     time_str = now.strftime("%H:%M")
     
