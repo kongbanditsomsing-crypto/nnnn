@@ -26,7 +26,7 @@ def keep_alive():
 client = commands.Bot(command_prefix="!", self_bot=True)
 
 # ⚠️ นำลิงก์รูปภาพปกสตรีมที่คุณฝากรูปไว้มาใส่ตรงนี้ (เช่น Imgur หรือ Discord CDN)
-IMAGE_URL = "https://i.imgur.com/YOUR_IMAGE_HERE.jpg"
+IMAGE_URL = "https://i.imgur.com/d6864a2bf8a5568f8f616fbf116c7a81.jpg"
 
 @client.event
 async def on_ready():
